@@ -4,27 +4,27 @@ const Languages = () => {
 
     const data = [
         {
-            img: 'src/assets/html.png',
+            img: 'assets/html.png',
             name: "HTML"
         },
         {
-            img: 'src/assets/css.png',
+            img: 'assets/css.png',
             name: "CSS"
         },
         {
-            img: 'src/assets/js.png',
+            img: 'assets/js.png',
             name: "javaScript"
         },
         {
-            img: 'src/assets/react.png',
+            img: 'assets/react.png',
             name: "React"
         },
         {
-            img: 'src/assets/wordpress.png',
+            img: 'assets/wordpress.png',
             name: "Wordpress"
         },
         {
-            img: 'src/assets/figma.png',
+            img: 'assets/figma.png',
             name: "Figma"
         }
     ]
