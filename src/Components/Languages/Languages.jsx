@@ -1,5 +1,7 @@
 import lan_style from '../Languages/Languages.module.css'
-import item1 from './assets/html.png'
+import item1 from '../../assets/html.png'
+// import htmlLogo from "../../assets/html.png";
+
 
 const Languages = () => {
 
