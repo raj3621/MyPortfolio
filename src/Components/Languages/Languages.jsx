@@ -1,33 +1,30 @@
 import lan_style from '../Languages/Languages.module.css'
-import item1 from '../../assets/html.png'
-// import htmlLogo from "../../assets/html.png";
-
 
 const Languages = () => {
 
     const data = [
         {
-            img: { item1 },
+            img: 'src/assets/html.png',
             name: "HTML"
         },
         {
-            img: '/src/assets/css.png',
+            img: 'src/assets/css.png',
             name: "CSS"
         },
         {
-            img: '/src/assets/js.png',
+            img: 'src/assets/js.png',
             name: "javaScript"
         },
         {
-            img: '/src/assets/react.png',
+            img: 'src/assets/react.png',
             name: "React"
         },
         {
-            img: '/src/assets/wordpress.png',
+            img: 'src/assets/wordpress.png',
             name: "Wordpress"
         },
         {
-            img: '/src/assets/figma.png',
+            img: 'src/assets/figma.png',
             name: "Figma"
         }
     ]

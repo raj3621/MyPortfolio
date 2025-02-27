@@ -5,13 +5,13 @@ const Experience = () => {
     const data = [
         {
             duration: 'July 2024 to October 2024',
-            img: '/src/assets/web-colonizer (1).png',
+            img: 'src/assets/web-colonizer (1).png',  // ✅ Correct Path
             designation: 'Wordpress Developer Intern',
             responsibility: 'Creating Layouts, Maintenance, Adding Functionality Raw coding'
         },
         {
             duration: 'October 2024 to Ongoing 2025',
-            img: 'src/assets/RLF (2).png',
+            img: 'src/assets/RLF (2).png',  // ✅ Correct Path
             designation: 'Wordpress Developer',
             responsibility: 'Creating Complete website, Maintenance Existing PHP website, Adding Functionality, Raw coding, C-panel'
         }
