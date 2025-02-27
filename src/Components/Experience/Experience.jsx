@@ -11,7 +11,7 @@ const Experience = () => {
         },
         {
             duration: 'October 2024 to Ongoing 2025',
-            img: '/RLF (2).png',  // ✅ Correct Path
+            img: 'RLF (2).png',  // ✅ Correct Path
             designation: 'Wordpress Developer',
             responsibility: 'Creating Complete website, Maintenance Existing PHP website, Adding Functionality, Raw coding, C-panel'
         }
