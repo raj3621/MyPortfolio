@@ -3,31 +3,14 @@ import lan_style from '../Languages/Languages.module.css'
 const Languages = () => {
 
     const data = [
-        {
-            img: 'assets/html.png',
-            name: "HTML"
-        },
-        {
-            img: 'assets/css.png',
-            name: "CSS"
-        },
-        {
-            img: 'assets/js.png',
-            name: "javaScript"
-        },
-        {
-            img: 'assets/react.png',
-            name: "React"
-        },
-        {
-            img: 'assets/wordpress.png',
-            name: "Wordpress"
-        },
-        {
-            img: 'assets/figma.png',
-            name: "Figma"
-        }
-    ]
+        { img: 'html.png', name: "HTML" },
+        { img: 'css.png', name: "CSS" },
+        { img: 'js.png', name: "JavaScript" },
+        { img: 'react.png', name: "React" },
+        { img: 'wordpress.png', name: "WordPress" },
+        { img: 'figma.png', name: "Figma" }
+    ];
+    
 
     return (
         <section className={lan_style.main} id='languages'>
