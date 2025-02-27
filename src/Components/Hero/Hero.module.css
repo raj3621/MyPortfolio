@@ -1,0 +1,110 @@
+.main {
+  color: white;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  font-family: poppins;
+}
+.main h1 {
+  font-size: 3.5vw;
+  font-weight: 200;
+  color: whitesmoke;
+  text-align: center;
+}
+.main h1 span {
+  color: #24cfa6;
+  font-weight: 400;
+}
+
+.shayari {
+  /* border: 2px solid white; */
+  width: 18%;
+  margin-left: 40%;
+  font-weight: 200;
+  color: #24cfa6;
+  font-size: 1vw;
+}
+.shayari span {
+  color: white;
+}
+.main .btn {
+  width: 16%;
+  padding: 0.8% 4%;
+  font-size: 1.2vw;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  background-color: #24cfa6;
+  margin-top: 1%;
+  cursor: pointer;
+}
+.main .btn a {
+  color: black;
+}
+.main .btn:hover {
+  background-color: white;
+}
+
+
+@media (max-width:1024px){
+  .main h1{
+    font-size: 5vw;
+  }
+  .shayari {
+    font-size: 1.5vw;
+    margin-left: 48%;
+  }
+  .main .btn{
+    width: 25%;
+    padding: 1.5% 4%;
+    font-size: 2vw;
+  }
+}
+
+@media (max-width:767px){
+  .main h1{
+    font-size: 5vw;
+  }
+  .shayari {
+    font-size: 1.5vw;
+    margin-left: 48%;
+  }
+  .main .btn{
+    width: 25%;
+    padding: 1.5% 4%;
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width:480px){
+  .main {
+    gap: 20px;
+  }
+
+  .main h1{
+    font-size: 7vw;
+    word-wrap: break-word;
+  }
+  .shayari {
+    font-size: 2.5vw;
+    /* margin-left: 48%; */
+    text-align: center;
+    margin-left: 0%;
+    word-wrap: break-word;
+    /* border: 2px solid red; */
+    width: 40%;
+
+    
+  }
+  .main .btn{
+    width: 50%;
+    padding: 1.5% 4%;
+    font-size: 3.5vw;
+  }
+}

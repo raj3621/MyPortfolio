@@ -1,0 +1,144 @@
+.main {
+    font-family: poppins;
+    color: white;
+    /* border: 2px solid red; */
+}
+.main h1{
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 400;
+}
+.main h1 span{
+    color: #24CFA6;
+    font-weight: 300;
+}
+.projects{
+    /* border: 2px solid greenyellow; */
+    margin: auto;
+    width: 80%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-grow: 3; */
+    gap: 50px;
+}
+.card{
+    border: 1px solid white;
+    width: 30%;
+    overflow: hidden;
+    border-radius: 16px;
+    /* box-shadow: 0px 0px 5px 1px #24CFA6; */
+}
+.card img{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid white;
+}
+.card_cont {
+    /* background-color: white; */
+    color: white;
+    padding: 5% 10%;
+}
+.card_cont h2{
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+.card_cont span{
+    font-size: 0.8vw;
+    color: rgb(203, 203, 203);
+
+}
+.card_cont p{
+    font-size: 1vw;
+    /* color: #24CFA6; */
+    font-weight: 400;
+    margin-top: 2%;
+}
+.card_cont button{
+    width: 100%;
+    padding: 4%;
+    border-radius: 30px;
+    font-size: 1.1vw;
+    font-weight: 500;
+    margin-top: 8%;
+    background-color: #24CFA6;
+    border: none;
+    outline: none;
+}
+
+.card_cont button a{
+    color: black;
+}
+
+
+
+@media (max-width:1024px) {
+    .main{
+        /* border: 2px solid red; */
+        gap: 30px;
+
+    }
+    .main h1{
+        font-size: 2.5vw;
+    }
+    .projects {
+        /* border: 2px solid red; */
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 3%;
+    }
+    .projects .card{
+        /* border: 2px solid red; */
+        width: 48%;
+    }
+    .card_cont h2 {
+        font-size: 2vw;
+    }
+    .card_cont span {
+        font-size: 1.2vw;
+    }
+    .card_cont p {
+        font-size: 1.6vw;
+    }
+    .card_cont button {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width:768px){
+    .projects .card{
+        width: 47%;
+    }
+    .main h1{
+        font-size: 3vw;
+    }
+    .card_cont button{
+        font-size: 2vw;
+        font-weight: 500;
+    }
+}
+
+@media(max-width:480px) {
+    .projects .card {
+        width: 90%;
+        margin: auto;
+    }
+    .card_cont h2{
+        font-size: 4vw;
+    }
+    .card_cont span{
+        font-size: 3.2vw;
+    }
+    .card_cont p{
+        font-size: 4vw;
+    }
+    .main h1{
+        font-size: 4vw;
+    }
+    .card_cont button{
+        font-size: 3vw;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,25 @@
+.main{
+    font-family: poppins;
+    width: 100%;
+    padding: 0.5%;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(36,207,166,1) 50%, rgba(0,0,0,1) 100%);
+    color: black;
+}
+.main p{
+    font-size: 0.9vw;
+    text-align: center;
+    font-weight: 500;
+}
+
+@media (max-width:1024px) {
+    .main p{
+        font-size: 1.8vw;
+    }
+}
+
+@media (max-width:480px) {
+    .main p{
+        font-size: 3vw;
+    }
+}
